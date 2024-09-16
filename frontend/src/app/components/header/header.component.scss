@@ -1,0 +1,27 @@
+#header {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
+    background-color: #fff;
+
+    #logo-img {
+        height: 80px;
+        width: 180px;
+    }
+
+    #share-img-container {
+
+        #share-img {
+            height:28px;
+            width: 28px;
+            margin-left: 20px;
+        }
+
+        #share-img:hover {
+            cursor:pointer;
+        }
+    }
+
+
+}
