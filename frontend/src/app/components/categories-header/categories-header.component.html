@@ -1,3 +1,13 @@
+<!-- src/app/category-list/category-list.component.html -->
 <mat-toolbar id="categories-header">
-    <span>Hello World</span>
-</mat-toolbar>
+    <div id="category-row" >
+      <div id="category-row-inner" *ngFor="let category of categories">
+         <span class="category-item">{{category.name}}</span>
+      </div>
+    </div>
+
+    <div id="search-row">
+      <fa-icon [icon]="faSearch"></fa-icon>
+    </div>
+  </mat-toolbar>
+  

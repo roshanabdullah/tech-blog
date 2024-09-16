@@ -1,7 +1,49 @@
-#categories-header {
-    background-color:#2B2D32;
 
-    span {
-        color: rgb(171, 171, 173);
+#categories-header {
+
+    background-color: #1E293B;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  
+
+
+  
+    #category-row {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      font-weight: 300;
+      width: 80%;
     }
-}
+
+    .category-item {
+      font-size: 0.9rem;
+      color: #fff;
+    }
+    
+    .category-item:hover {
+      cursor: pointer;
+    }
+
+    #search-row {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      
+      fa-icon {
+        color: #fff;
+        font-size: 1rem;
+        font-weight: 300;
+      }
+
+      fa-icon:hover {
+        cursor: pointer;
+      }
+    }
+
+  }
+  
